@@ -1,0 +1,38 @@
+/* UTILS */
+
+.debug{
+  border: 1px solid black;
+  height: 100px;
+  background-color: aquamarine;
+}
+
+.debug-2{
+  border: 1px solid black;
+  height: 100px;
+  background-color: aqua;
+}
+
+.total-center{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.column{
+  flex-direction: column;
+}
+
+/* 
+  HEADER 
+*/
+.jumbotron{
+  height: 500px;
+}
+
+.jumbotron-element{
+  height: 400px;
+  min-width: 500px;
+}
+/* 
+  /HEADER 
+*/
