@@ -24,17 +24,8 @@
   justify-content: center;
 }
 
-.align-items-center{
-  align-items: center;
+.flex{
   display: flex;
-}
-
-.justify-content-flex-end{
-  justify-content: flex-end;
-}
-
-.column{
-  flex-direction: column;
 }
 
 .per100{
@@ -45,13 +36,85 @@
   HEADER 
 */
 
+/* Title */
+.header-title{
+  background-color: #2C3E50;
+  height: 100px;
+}
+
+.title h2{
+  color: white;
+}
+
+/* Menu */
+.menu{
+  background-color: grey; /* DA SISTEMARE L'ALTEZZA */
+}
+
+.menu ul{
+  list-style: none;
+}
+
+.menu a{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  padding: 0px 10px;
+}
+
+.menu a:hover{
+  color: red;
+}
+
+.small-menu i{
+  font-size: 1.5rem;
+  padding: 5px 9px;
+  border-radius: 4px;
+  border: 2px solid white;
+  color: #8D8C8B;
+  cursor: pointer;
+}
+
+/* Jumbotron */
 .jumbotron{
   height: 500px;
+  color: white;
+  background-color: #1ABC9C;
 }
 
 .jumbotron-element{
   height: 400px;
   min-width: 500px;
+}
+
+.jumbotron img{
+  width: 16rem;
+}
+
+.jumbotron h1{
+  font-size: 3rem;
+}
+
+.star-line{
+  width: calc(100% - 10px);
+  height: 5px;
+  background-color: white;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.sl{
+  margin-left: 10px;
+}
+
+.jumbotron i{
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.jumbotron p{
+  font-size: 1.2rem;
+  text-transform: uppercase;
 }
 
 /* 
