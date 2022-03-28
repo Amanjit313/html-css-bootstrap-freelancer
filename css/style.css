@@ -205,8 +205,8 @@
 }
 
 .button:hover{
-  color: red;
-  border: 1px solid red;
+  color: #2C3E50;
+  background-color: white;
 }
 
 /* Contact Me */
@@ -240,4 +240,82 @@
 
 /* 
   /MAIN
+*/
+
+/* 
+  FOOTER 
+*/
+.social{
+  color: white;
+  background-color: #2C3E50;
+}
+
+/* Social Info */
+.social-info{
+  background-color: #3A546D;
+}
+
+.social-info-container{
+  padding: 20px;
+}
+
+.social h5{
+  text-transform: uppercase;
+  font-size: 1.6rem;
+}
+
+.social p{
+  font-size: 1rem;
+}
+
+.social a{
+  text-decoration: none;
+  color: #1ABC9C;;
+}
+
+.social a:hover{
+  color: red;
+}
+
+.circle{
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.circle:hover{
+  background-color: lightslategray;
+}
+
+.circle-f{
+  padding: 10px 14px;
+}
+
+.circle-g{
+  padding: 10px 8px;
+}
+
+.circle-t{
+  padding: 10px 10px;
+}
+
+.circle-l{
+  padding: 10px 12px;
+}
+
+/* Copyright */
+.copyright{
+  height: 50px;
+}
+
+.copyright .fa-copyright{
+  font-size: .9rem;
+  margin: 0px 5px;
+}
+
+.copyright-text{
+  margin-top: 25px;
+}
+
+/* 
+  /FOOTER 
 */
