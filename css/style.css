@@ -132,20 +132,6 @@
   text-transform: uppercase;
 }
 
-.button{
-  padding: 8px 12px;
-  border: 1px solid white;
-  text-decoration: none;
-  border-radius: 5px;
-  color: white;
-  margin-bottom: 50px;
-}
-
-.button:hover{
-  color: red;
-  border: 1px solid red;
-}
-
 /* 
   /HEADER 
 */
@@ -209,8 +195,47 @@
   font-size: 1.1rem;
 }
 
-.download{
-  
+.button{
+  padding: 8px 12px;
+  border: 1px solid white;
+  text-decoration: none;
+  border-radius: 5px;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.button:hover{
+  color: red;
+  border: 1px solid red;
+}
+
+/* Contact Me */
+.form-style{
+  width: 100%;
+  border: none;
+}
+
+.line{
+  border: 1px solid #D1D1D1;
+}
+
+.send-container{
+}
+
+.send{
+  padding: 8px 12px;
+  border: 1px solid #1ABC9C;
+  text-decoration: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #1ABC9C;
+  margin-bottom: 50px;
+}
+
+.send:hover{
+  color: #1ABC9C;
+  border: 1px solid #1ABC9C;
+  background-color: white;
 }
 
 /* 
