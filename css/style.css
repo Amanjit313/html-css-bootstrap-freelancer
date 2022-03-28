@@ -32,6 +32,38 @@
   height: 100%;
 }
 
+.star-line{
+  width: calc(100% - 10px);
+  height: 5px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.sl{
+  margin-left: 10px;
+}
+
+.star{
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.white{
+  background-color: white;
+}
+
+.white-2{
+  color: white;
+}
+
+.alternative-white{
+  background-color: #2C3E50;
+}
+
+.alternative-white-2{
+  color: #2C3E50;
+}
+
 /* 
   HEADER 
 */
@@ -95,23 +127,6 @@
   font-size: 3rem;
 }
 
-.star-line{
-  width: calc(100% - 10px);
-  height: 5px;
-  background-color: white;
-  border-radius: 20px;
-  margin-bottom: 10px;
-}
-
-.sl{
-  margin-left: 10px;
-}
-
-.jumbotron i{
-  font-size: 2rem;
-  margin-bottom: 10px;
-}
-
 .jumbotron p{
   font-size: 1.2rem;
   text-transform: uppercase;
@@ -125,14 +140,44 @@
   MAIN
 */
 
+/* Portfolio */
+.portfolio-title h2{
+  font-size: 2.5rem;
+}
+
 .box-card{
-  height: 250px;
-  border: 1px solid black;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .card{
-  height: 250px;
+  position: relative;
+}
+
+.card{
+  border-radius: 20px !important;
+  background-color: transparent !important;
+}
+
+.card img{
+  border-radius: 20px;
+}
+
+.card i{
+  display: none;
+}
+
+.card:hover i{
+  display: block;
+  background-color: rgba(0, 0, 0, .4);
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  position: absolute;
+  font-size: 4rem;
+  color: white;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 /* 
