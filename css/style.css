@@ -24,8 +24,21 @@
   justify-content: center;
 }
 
+.align-items-center{
+  align-items: center;
+  display: flex;
+}
+
+.justify-content-flex-end{
+  justify-content: flex-end;
+}
+
 .column{
   flex-direction: column;
+}
+
+.per100{
+  height: 100%;
 }
 
 /* 
